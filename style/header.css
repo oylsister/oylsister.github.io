@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+}
+
+.header {
+    background-color: black;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    height: 80px;
+    position: relative;
+}
+
+.intro-body {
+    background-color: aquamarine;
+    padding-bottom: 120px;
+}
+
+.intro-content {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.big-name {
+    margin-top: 45px;
+    font-size: 60px;
+}
+
+.intro {
+    line-height: 1.6em;
+}
