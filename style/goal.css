@@ -1,16 +1,19 @@
 .goal-content {
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    max-width: 1000px;
     align-items: center;
     margin: auto;
     padding-bottom: 60px;
-    height: 420px;
+    height: 620px;
     justify-content: center;
 }
 
 .goal-body {
     background-color: rgb(134, 160, 247);
+    left: 0px;
+    right: 0px;
+    width: 100%;
 }
 
 .goal-header {
@@ -19,4 +22,5 @@
 
 .goal {
     line-height: 1.6em;
+    font-size: 20px;
 }
