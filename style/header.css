@@ -1,5 +1,6 @@
 body {
     font-family: Arial;
+    margin: 0;
 }
 
 .header {
@@ -35,6 +36,7 @@ body {
     max-width: 800px;
     margin: auto;
     z-index: 50;
+
 }
 
 .big-name {
@@ -80,4 +82,27 @@ body {
     position: absolute;
     z-index: -1;
     overflow: hidden;
+}
+
+@media (min-width: 1621px)
+{
+    .zriot {
+        width: 100%;
+        transform: translate(0%, 0%);
+    }
+}
+
+@media (max-width: 1000px)
+{
+    .zriot {
+        transform: translate(-20%);
+    }
+}
+
+@media (max-width: 400px)
+{
+    .zriot {
+        height: 100%;
+        transform: translate(-50%);
+    }
 }
